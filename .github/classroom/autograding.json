@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Main test",
+      "setup": "npm ci --legacy-peer-deps",
+      "run": "CI=true npm test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 4,
+      "points": 10
+    }
+  ]
+}
